@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hanan Bajramovic</title>
+
+  <script>
+    $("html, body")
+      .delay(200)
+      .animate({ scrollTop: $("#about").offset().top }, 1000);
+  </script>
+  <script src="https://kit.fontawesome.com/74b9de32c3.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="home">
+    <img src="hero.jpg" id="hero_img" />
+    <nav class="navigacija">
+      <ul>
+        <li><a class="navlink" href="#home">Home</a></li>
+        <li><a class="navlink" href="#about">About</a></li>
+        <li><a class="navlink" href="#carousel">Hobbies</a></li>
+      </ul>
+    </nav>
+
+  </div>
+  <div class="About-center" id="about">
+    <div style=" display: flex; justify-content: space-between; ">
+      <div class="About" id="profilnaslika" class="profilnal" onclick="bjeziustranu()">
+        <img src="krug.jpg" alt="My picture" />
+      </div>
+      <div class="tekst" style="max-width: 500px;">
+        <h1>HI!</h1>
+
+        <h3>My name is Hanan Bajramovic</h3>
+        <p>
+          I am a 18 years old high school student of the first comprehensive high school in
+          Zenica. I love to code and to learn new things within the programming
+          sector. In the future I hope that I will be a very successful web
+          developer.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="hobbies" id="carousel">
+
+    <div class="carousel">
+      <h1 class="moji_hobiji">MY HOBBIES</h1>
+      <ul class="slides">
+        <input type="radio" name="radio-buttons" id="img-1" checked />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img src="image1.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-3" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-2" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <input type="radio" name="radio-buttons" id="img-2" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img src="image2.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-1" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-3" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <input type="radio" name="radio-buttons" id="img-3" />
+        <li class="slide-container">
+          <div class="slide-image">
+            <img src="image3.jpg">
+          </div>
+          <div class="carousel-controls">
+            <label for="img-2" class="prev-slide">
+              <span>&lsaquo;</span>
+            </label>
+            <label for="img-1" class="next-slide">
+              <span>&rsaquo;</span>
+            </label>
+          </div>
+        </li>
+        <div class="carousel-dots">
+          <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+          <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+          <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  
+  <h1 class="abthobbies">About my hobbies</h1>
+  <div class="ohobijima">
+
+    <div class="kosarka">
+      <img src="kosarka.png" alt="" srcset="">
+      <p>I played basketball for 5 years and was average in that sport. The most important thing in all of this is that
+        I gained a sense of teamwork, which was much more prominent with me than with my teammates,, which gave me the
+        opportunity to stand out in some segments.</p>
+    </div>
+    <div class="odbojka">
+      <img src="odbojka.png" alt="" srcset="">
+      <p>Volleyball is a sport I am relatively new to. The rules, positions and way of playing that sport. Because of
+        the feeling for teamwork and communication, I learn and progress in this sport easily. Next to programming, this
+        is my second favorite activity because, unlike basketball, I haven't perfected it so there is always something
+        new to learn.</p>
+    </div>
+    <div class="programiranje">
+      <img src="programiranje.png" alt="">
+      <p>Coding is something I do professionally and earn from it. I've been actively involved in this for less than a
+        year. Given that my theoretical and less practical knowledge is emphasized, I'm still a junior developer and I
+        have to learn a lot of things that I still don't know in practice. I'm happy to learn new things and I'm happy
+        to receive criticism and advice in order to improve.!</p>
+
+
+
+    </div>
+  </div>
+  <footer>
+    <script src="script.js"></script>
+    <p class="copyright">Copyright Hanan Bajramovic<span>&#169;</span></p>
+
+    <div class="ikonice">
+      <a href="https://www.instagram.com/hananb_27/">Instagram <i class="fa-brands fa-instagram"></i></a>
+      <a href="www.linkedin.com/in/hanan-bajramovic-498683229">LinkedIn <i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/HananB27">GitHub <i class="fa-brands fa-github"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
