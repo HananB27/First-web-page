@@ -317,7 +317,7 @@ ul li a:hover:before {
     .kosarka {
       display: flex; 
       justify-content: flex-start;
-      margin-right: 100vh; 
+      margin-right: 70vh; 
       border: 1px solid #033F73;
       border-radius: 15px;
       margin-left: 100px;
@@ -342,7 +342,7 @@ ul li a:hover:before {
       margin-right: 100px;
       border: 1px solid #033F73;
       border-radius: 15px;
-      margin-left: 100vh;
+      margin-left: 70vh;
       background-color: #76a7db;
       margin-bottom: 10vh;
       max-height: 80vh;
@@ -362,7 +362,7 @@ ul li a:hover:before {
     .programiranje {
       display: flex; 
       justify-content: flex-start;
-      margin-right: 100vh; 
+      margin-right: 70vh; 
       border: 1px solid #033F73;
       border-radius: 15px;
       margin-left: 100px;
